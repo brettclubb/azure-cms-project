@@ -9,8 +9,8 @@ class Config(object):
     BLOB_STORAGE_KEY = os.environ.get('BLOB_STORAGE_KEY') or 'wYEwT+XeEOhfqCHsrSfbbTjRuX2mTyiNxM8ZstJkL2a4mCpBFMUmPehIII7qkNrNVAbcDzUGc6/6fuEmcgVL4g=='
     BLOB_CONTAINER = os.environ.get('BLOB_CONTAINER') or 'images'
 
-    SQL_SERVER = os.environ.get('SQL_SERVER') or 'bmoney.database.windows.net'
-    SQL_DATABASE = os.environ.get('SQL_DATABASE') or 'cms-project'
+    SQL_SERVER = os.environ.get('SQL_SERVER') or 'bc-cms.database.windows.net'
+    SQL_DATABASE = os.environ.get('SQL_DATABASE') or 'legendary-cms'
     SQL_USER_NAME = os.environ.get('SQL_USER_NAME') or 'bclubb'
     SQL_PASSWORD = os.environ.get('SQL_PASSWORD') or 'FunTim3~!'
     # Below URI may need some adjustments for driver version, based on your OS, if running locally
