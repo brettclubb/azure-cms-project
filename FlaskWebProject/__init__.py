@@ -2,6 +2,7 @@
 The flask application package.
 """
 import logging
+from logging import StreamHandler
 from flask import Flask
 from config import Config
 from flask_sqlalchemy import SQLAlchemy
@@ -14,7 +15,7 @@ wsgi_app = app.wsgi_app
 app.logger.setLevel(logging.WARNING)
 streamHandler = logging.StreamHandler()
 streamHandler.setLevel(logging.WARNING)
-# app.logger.addhandler(streamHandler)
+app.logger.addHandler(streamHandler)
 Session(app)
 db = SQLAlchemy(app)
 login = LoginManager(app)
