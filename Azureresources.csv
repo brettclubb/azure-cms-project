@@ -1,0 +1,7 @@
+SEP=,
+NAME,TYPE,LOCATION,
+"ASP-cmsprojectnd-8738","App Service plan","South Central US"
+"bc-cms","SQL server","South Central US"
+"bc-cms","App Service","South Central US"
+"cmsprojectnd","Storage account","South Central US"
+"legendary-cms (bc-cms/legendary-cms)","SQL database","South Central US"
